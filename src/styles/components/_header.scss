@@ -1,0 +1,45 @@
+$headerHeight: 2.5rem;
+$logoFont: Cambria,"Times New Roman",Times,serif;
+
+.header {
+    background: #fff;
+    width: 100%;
+    padding: .5rem .5rem 0 .5rem;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.15);
+    position: relative;
+    
+    &__upper {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    &__logo {
+        font-size: 1.5rem;
+        font-family: $logoFont;
+        font-weight: bold;
+    }
+
+    &__menu {
+        height: $headerHeight;
+        display: flex;
+    }
+
+    &__item {
+        text-transform: uppercase;
+        float: left;
+        line-height: $headerHeight;
+        margin-right: 1rem;
+        cursor: pointer;
+
+        a {
+            color: $constrastColor;
+        }
+
+        &.is--active {
+            a {
+                color: $primaryColor;
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.story-board {
+    display: flex;
+    justify-content: flex-start;
+    color: black;
+
+    &__thumb,
+    &__content {
+        position: relative;
+        width: 50%;
+        padding: .5rem;
+    }
+
+    &__thumb {
+        img {
+            width: 100%;
+        }
+    }
+
+    &__content {
+        > * {
+            margin-bottom: .5rem;
+        }
+    }
+
+    &__meta {
+        display: flex;
+        span {
+            margin-right: 1rem;
+        }
+    }
+}
+
+@media (min-width: $breakpoint-tablet) {
+    .card {
+        margin: 5px
+    }
+}

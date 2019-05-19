@@ -1,0 +1,20 @@
+body {
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    color: $primaryColor;
+    text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box; 
+}
