@@ -7,9 +7,9 @@ import { graphql } from "gatsby"
 export default ({ data }) => (
   <Layout>
     <SEO title="Home" />
-    <div className="grid">
+    <div className="clearfix">
       <StoryWidget
-        className="grid-md-8"
+        className="sm-col sm-col-8"
         stories={getStories(data)}
         title="Featured stories"
       />

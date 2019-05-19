@@ -1,12 +1,12 @@
 .story-board {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
     color: black;
 
     &__thumb,
     &__content {
         position: relative;
-        width: 50%;
+        width: 100%;
         padding: .5rem;
     }
 
@@ -31,7 +31,11 @@
 }
 
 @media (min-width: $breakpoint-tablet) {
-    .card {
-        margin: 5px
+    .story-board {
+        flex-direction: row;
+        &__thumb,
+        &__content {
+            width: 50%;
+        }
     }
 }

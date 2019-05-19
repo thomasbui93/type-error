@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `TypeError`,
     description: `Software Engineer stories`,
-    author: `@thomasbui93`,
+    author: `Khoa Bui`,
   },
   plugins: [
     `gatsby-plugin-sass`,

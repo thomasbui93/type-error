@@ -6,8 +6,8 @@ featured: true
 published: true
 image: https://cdn.pixabay.com/photo/2015/07/27/19/47/turtle-863336__340.jpg
 category:
-  - News
-  - Events
+  - JavaScript
+  - CSS Focus
 tags:
   - Dublin
   - Ireland

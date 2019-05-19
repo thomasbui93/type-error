@@ -23,6 +23,12 @@ $logoFont: Cambria,"Times New Roman",Times,serif;
     &__menu {
         height: $headerHeight;
         display: flex;
+        -webkit-overflow-scrolling: touch;
+        overflow-x: auto;
+        padding-left: .5rem;
+        padding-right: .5rem;
+        text-align: center;
+        white-space: nowrap;
     }
 
     &__item {
