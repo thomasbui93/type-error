@@ -1,0 +1,25 @@
+$heading: (
+  "h1": 4rem,
+  "h2": 3rem,
+  "h3": 2.5rem,
+  "h4": 2.5rem,
+  "h5": 2rem,
+  "h6": 1.5rem
+) !default;
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+@for $i from 1 through 6 {
+  h#{$i},
+  .h#{$i} {
+    font-size: map-get($map: $heading, $key: "h#{$i}");
+  }
+}

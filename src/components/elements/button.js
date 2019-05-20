@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default ({children}) => (
-    <button className="f6 link dim br1 ba ph3 pv2 mb2 dib black">
+export default ({children, isPrimary=true}) => (
+    <button className={`button ${isPrimary ? 'is-primary': ''}`}>
         {children}
     </button>
 )

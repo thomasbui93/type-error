@@ -19,7 +19,7 @@ const StoryBoard = ({
     </div>
     <div className="story-board__content">
       <Link to={slug}>
-        <div className="story-board__title">{title}</div>
+        <h5 className="story-board__title">{title}</h5>
       </Link>
       <CategoryList categories={category} className="story-board__category" />
       <div className="story-board__intro">{excerpt}</div>

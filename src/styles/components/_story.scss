@@ -20,6 +20,10 @@
         > * {
             margin-bottom: .5rem;
         }
+
+        > a {
+            display: block;
+        }
     }
 
     &__meta {
@@ -33,9 +37,12 @@
 @media (min-width: $breakpoint-tablet) {
     .story-board {
         flex-direction: row;
-        &__thumb,
+        &__thumb {
+            width: 66.67%;
+        }
+
         &__content {
-            width: 50%;
+            width: 33.33%;
         }
     }
 }

@@ -47,4 +47,11 @@
     .page-header.lg-margin {
         margin: 5px
     }
+
+    .page-layout {
+        position: relative;
+        .left {
+            width: 66.67%;
+        }
+    }
 }
