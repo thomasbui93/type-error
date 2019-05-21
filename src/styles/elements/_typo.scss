@@ -23,3 +23,7 @@ h6 {
     font-size: map-get($map: $heading, $key: "h#{$i}");
   }
 }
+
+.text--bold {
+  font-weight: bold;
+}

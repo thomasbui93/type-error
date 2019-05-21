@@ -15,7 +15,9 @@ const StoryBoard = ({
 }) => (
   <div className={`story-board ${className}`}>
     <div className="story-board__thumb">
-      <img src={image} alt={title} />
+      <Link to={slug}>
+        <img src={image} alt={title} />
+      </Link>
     </div>
     <div className="story-board__content">
       <Link to={slug}>
