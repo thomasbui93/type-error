@@ -26,7 +26,7 @@ const Header = ({ siteTitle }) => (
         <Link to="/blog/category/manifesto">Story</Link>
       </div>
       <div className="header__item">
-        <Link to="/me">About Me</Link>
+        <Link to="/about-me">About Me</Link>
       </div>
     </div>
   </div>
