@@ -1,11 +1,14 @@
 import { Link } from "gatsby"
 import React from "react"
+import Logo from "./elements/logo"
 
 const Header = ({ siteTitle }) => (
   <div className="header">
     <div className="header__upper">
       <div className="header__logo">
-        <Link to="/">{siteTitle}</Link>
+        <Link to="/">
+          <Logo siteName={siteTitle} />
+        </Link>
       </div>
       <div className="header__search" />
     </div>

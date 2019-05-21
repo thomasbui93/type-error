@@ -43,6 +43,14 @@
     line-height: 20px;
 }
 
+.page-layout {
+    flex-direction: column;
+
+    .left {
+        margin-bottom: 1rem;
+    }
+}
+
 @media (min-width: $breakpoint-tablet) {
     .page-header.lg-margin {
         margin: 5px
@@ -50,8 +58,12 @@
 
     .page-layout {
         position: relative;
+        flex-direction: row;
         .left {
             width: 66.67%;
+        }
+        .right {
+            width: 33.33%;
         }
     }
 }

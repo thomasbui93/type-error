@@ -1,0 +1,19 @@
+.logo {
+    position: relative;
+    display: flex;
+    height: 35px;
+    line-height: 35px;
+
+    &__start {
+        color: $primaryColor;
+        position: relative;
+
+        span {
+            position: absolute;
+            line-height: 35px;
+            width: 100%;
+            text-align: center;
+            left: 0;
+        }
+    }
+}

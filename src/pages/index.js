@@ -2,17 +2,21 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import StoryWidget from "../components/common/story-widget"
+import Hero from "../components/common/hero"
 import { graphql } from "gatsby"
 
 export default ({ data }) => (
   <Layout>
     <SEO title="Home" />
-    <div className="page-layout">
+    <div className="page-layout flex-container">
       <StoryWidget
         className="left"
         stories={getStories(data)}
         title="Featured stories"
       />
+      <div className="right">
+        <Hero />
+      </div>
     </div>
   </Layout>
 )
